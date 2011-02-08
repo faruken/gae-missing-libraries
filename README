@@ -1,0 +1,3 @@
+Google App Engine does not support some standard libraries of Python such as the socket library. This project's aim is to provide the missing functions of the standard library.
+
+For now, some functions of the socket library such as ntohs, ntohl, htons, htonl, inet_aton, inet_ntoa have been written.
