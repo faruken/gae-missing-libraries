@@ -28,7 +28,7 @@ def gae_inet_ntoa(addr):
   i1 = (addr & 0x00ff0000) >> 16
   i2 = (addr & 0x0000ff00) >> 8
   i3 = (addr & 0x000000ff)
-  return str(i0) + '.' + str(i1) + '.' + str(i2) + '.' + str(i3)
+  return '%s.%s.%s.%s' % (i0, i1, i2, i3)
 
 def gae_inet_aton(addr):
   """
