@@ -10,8 +10,11 @@
   gae_inet_aton() -- convert IP addr string (123.45.67.89) to 32-bit packed format
   gae_inet_ntoa() -- convert 32-bit packed format IP to string (123.45.67.89)
 
-  :author: Faruk Akgul  
-  :license: GPL3, see LICENSE for details.
+  :author: faruken
+  :license: Public domain
+  
+  Updates:
+    Feb 27, 2011 -- String concation is slow :D - Jeremy Sandell
   
 """
 
